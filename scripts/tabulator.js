@@ -86,10 +86,11 @@ var table = new Tabulator("#example-table", {
     placeholder:"No Data Set",
     columns:[
         {rowHandle:true, formatter:"handle", headerSort:false, frozen:true, width:40, minWidth:40},
-        {title:"Product Sku", field:"Product Sku", sorter:"number", headerFilter:"number"},
-        {title:"Product Name", field:"Product Name", sorter:"string", headerFilter:"input"},
-        {title:"Inventory", field:"Inventory", sorter:"number", headerFilter:"number"},
-        {title:"List Price", field:"List Price", sorter:"number", headerFilter:"number"},
+        {title:"Event Name", field:"name", sorter:"string", headerFilter:"input"},
+        {title:"Dates", field:"dates", sorter:"string", headerFilter:"input"},
+        {title:"Location", field:"location", sorter:"string", headerFilter:"input"},
+        {title:"URL", field:"url", sorter:"string", headerFilter:"input"},
+        {title:"Announcement", field:"announcement", sorter:"string", headerFilter:"input"},
     ],
 });
 
