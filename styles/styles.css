@@ -7,6 +7,7 @@ body {
     padding: 0 130px;
     width: auto;
     height: auto;
+    padding-top: 50px;
 }
 
 
@@ -21,7 +22,9 @@ body {
 }
 
 .logo-link {
-    width: 180px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2e2ea3;
     margin: 20px 30px;
     height: 28px;
 }
@@ -76,6 +79,7 @@ body {
 .title {
     max-width: 600px;
     margin-right: 20px;
+    padding-bottom: 25px;
 }
 
 .title > h1 {
